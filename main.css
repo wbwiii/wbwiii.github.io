@@ -115,6 +115,7 @@ table {
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 0;
+    border: 5px solid #8CAFF4;
 }
 
 
@@ -125,7 +126,16 @@ table {
  */
 
 h1, h2, h3, h4, h5, h6, h7, h8, p {
-    margin-bottom: 22px;
+    margin-bottom: 22px;    
+}
+
+
+.footer{
+    font-size: 40px;
+    text-align: center;
+    font-weigth: 500;
+    background-color: #8CAFF4;
+    color: blue;
 }
 
 
