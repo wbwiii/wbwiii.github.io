@@ -77,9 +77,10 @@ table {
 
 .introduction{
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
+    padding-left: 2%;
+    padding-right: 2%px;
+    width: 30%;
+    border: 5px solid #8CAFF4;
 }
 
 .education{
@@ -126,12 +127,25 @@ table {
  */
 
 h1, h2, h3, h4, h5, h6, h7, h8, p {
-    margin-bottom: 22px;    
+    margin-bottom: 3px;    
+}
+
+html{
+    font-fmaily:'Montserrat', 'Verenda', Arial, sans-serif;
+}
+
+.
+
+.introduction{
+    font-size: 20px;
+    font-weigth: 300;
+    text-alight: center;
+    background-color:#8CAFF4;
 }
 
 
 .footer{
-    font-size: 40px;
+    font-size: 5px;
     text-align: center;
     font-weigth: 500;
     background-color: #8CAFF4;
