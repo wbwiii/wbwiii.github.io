@@ -71,9 +71,10 @@ table {
     margin: 0 auto;
     padding-left: 3%;
     padding-right: 3%;
-    width: 90%;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
+    heigth: 10%;
 }
 
 .current {
@@ -81,7 +82,7 @@ table {
     padding-left: 3%;
     padding-right: 3%;
     width: 50%;
-    border: 2px solid #8CAFF4;
+    border: 5px solid #8CAFF4;
 }
 
 .introduction_title {
@@ -111,11 +112,6 @@ table {
 }    
 .education {
     margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 20%;
-    float: right;
-    height: 20%;
 }
 
 .main_interests {
@@ -165,6 +161,7 @@ table {
     padding-left: 2%;
     padding-right: 2%;
     width: 50%;
+    border: 5px solid #8CAFF4;
 }
 
 .footer {
@@ -247,7 +244,7 @@ html {
 }
 
 .technicalskills_title {
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 100;
     text-align: center;
     background-color: yellow;
@@ -272,7 +269,7 @@ html {
 }
 
 .the_footer {
-    font-size: 5px;
+    font-size: 15px;
     text-align: center;
     font-weight: 500;
     background-color: grey;
