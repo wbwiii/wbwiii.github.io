@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
-/* reset*/
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,241 +28,150 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/*
- * ===================================
- * GRID
- * ===================================
- */
-
+/* General Styles */
 *,
 *:before,
 *:after {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.namegroup {
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 100%;
-    height: 10%;
+body {
+  font-family: 'Montserrat', 'Verdana', Arial, sans-serif;
 }
 
-.current {
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 50%;
-    border: 5px solid #8CAFF4;
+/* Layout Grid */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.introduction_title {
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 50%;
-    text-align: center;
-    border: 2px solid #8CAFF4;
+.header,
+.main_interests,
+.technicalskills,
+.github_title,
+.projects {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.introduction {
-    margin: 0 auto;
-    padding: 5%;
-    width: 50%;
-    text-align: center;
-    border: 2px solid #8CAFF4;
+/* Experience and Education Side Sections */
+.sidebar-left,
+.sidebar-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.education_title {
-    float: right;
-    width: 25%;
-    padding: 2%;
-    border: 2px solid #8CAFF4;
-    text-align: center;
-}    
-.education {
-    margin: 0 auto;
-    width: 20%;
-    float: right;
-    text-align: center;
+.sidebar-left {
+  left: 0;
+  width: 20%;
 }
 
+.sidebar-right {
+  right: 0;
+  width: 20%;
+}
+
+.sidebar-left .section,
+.sidebar-right .section {
+  width: 100%;
+  text-align: center;
+}
+
+/* Sections */
+.header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main_interests,
+.technicalskills,
+.github_title,
+.projects {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Titles */
+.introduction_title,
+.education_title,
+.experience_title,
+.technicalskills_title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.introduction,
+.education,
+.experience,
+.technicalskills,
+.projects {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Specific Layout Adjustments */
+.introduction_title,
+.introduction,
 .main_interests {
-    margin: 0 auto;
-    padding: 5%;
-    width: 50%;
-    text-align: center;
-    border: 2px solid #8CAFF4;
+  padding: 10px;
 }
 
-.experience_title {
-    margin: 0 auto;
-    padding: 2%;
-    width: 25%;
-    float: left;
-    text-align: center;
-    border: 2px solid #8CAFF4;
-} 
+.education_title,
+.education,
+.experience_title,
 .experience {
-    margin: 0 auto;
-    width: 20%;
-    float: left;
-    text-align: center;
-    border: 2px solid #8CAFF4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.technicalskills_title {
-    margin: auto 0;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 50%;
-    text-align: center;
-    border: 2px solid #8CAFF4;
+.sidebar-left .section {
+  margin-top: 20px;
 }
 
-.technicalskills {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 50%;
-    text-align: center;
-    border: 2px solid #8CAFF4;
-}
-
-.github_title {
-    margin: 0 auto;
-    padding: 2%;
-    width: 50%;
-    text-align: center;
-    border: 5px solid #8CAFF4;
-}
-
-.projects {
-    margin: 0 auto;
-    padding: 2%;
-    width: 50%;
-    text-align: center;
-    border: 5px solid #8CAFF4;
-}
-
-.footer {
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 90%;
-    margin-top: 1%;
-    margin-bottom: 0;
-    text-align: center;
-    border: 5px solid #8CAFF4;
-}
-
-/*
- * =======================================
- * TYPOGRAPHY
- * =======================================
- */
-
-h1, h2, h3, h4, h5, h6, h7, h8, p {
-    margin-bottom: 3px;    
-}
-
-html {
-    font-family:'Montserrat', 'Verdana', Arial, sans-serif;
-}
-
-.namegroup {
-    font-size: 20px;
-    font-weight: 100;
-    text-align: center;
-}
-
-.current {
-    font-size: 20px;
-    text-align: center;
-}
-
-.introduction_title {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.introduction {
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.main_interests {
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom:10px;
-}
-
-.education_title {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.education {
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.technicalskills_title {
-    font-size: 30px;
-    font-weight: 100;
-    text-align: center;
-}
-
-.technicalskills {
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.github_title {
-    font-size: 20px;
-    text-align: center;
-}
-
-.projects {
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.footer {
-    font-size: 15px;
-    text-align: center;
-    font-weight: 500;
+.sidebar-right .section {
+  margin-top: 20px;
 }
