@@ -64,6 +64,7 @@ table {
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
+    text-align
 
 }
 
@@ -72,14 +73,13 @@ table {
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
-
 }
 
 .introduction{
     margin: 0 auto;
     padding-left: 2%;
-    padding-right: 2%px;
-    width: 30%;
+    padding-right: 2%;
+    width: 50%;
     border: 5px solid #8CAFF4;
 }
 
@@ -87,7 +87,7 @@ table {
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-    width: 960px;
+    width: 20%;
 
 }
 
@@ -101,9 +101,9 @@ table {
 
 .technicalskills{
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 50%;
 
 }
 
