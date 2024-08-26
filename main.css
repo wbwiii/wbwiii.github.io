@@ -163,6 +163,12 @@ table {
     width: 50%;
     border: 5px solid #8CAFF4;
 }
+.github_title{
+    width: 50%;
+    border: 5px solid #8CAFF4;
+}
+
+
 
 .footer {
     margin: 0 auto;
@@ -259,6 +265,12 @@ html {
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.github_title{
+    font-size: 20px;
+    text-align: center;
+    background-color: ligthblue;
 }
 
 .projects {
