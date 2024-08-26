@@ -72,7 +72,7 @@ table {
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-    width: 100%;
+    width: 55%;
 
 }
 
@@ -80,14 +80,14 @@ table {
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
-    width: 70%;
+    width: 55%;
     border: 5px solid #8CAFF4;
 }
 
 .education{
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 20%;
     float: right;
 
@@ -105,7 +105,7 @@ table {
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
-    width: 50%;
+    width: 55%;
 
 }
 
@@ -140,24 +140,31 @@ html{
     font-size: 20px;
     font-weigth: 300px;
     text-align: center;
-    background: blue;
+    background: grey;
+
 }
 
 
 .introduction{
-    font-size: 20px;
+    font-size: 15px;
     font-weigth: 300;
     text-align: center;
     background-color:#8CAFF4;
 }
 
-
+.technicalskills{
+    font-size: 15px;
+    font-weigth: 300;
+    text-align: center;
+    background: white;
+}
 .footer{
     font-size: 5px;
     text-align: center;
     font-weigth: 500;
-    background-color: #8CAFF4;
+    background-color: grey;
     color: blue;
+    text-align: center;
 }
 
 
