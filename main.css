@@ -2,288 +2,288 @@
   License: none (public domain)
 */
 
-/*
- * ===================================
- * RESET
- * ===================================
- */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/*
- * ===================================
- * GRID
- * ===================================
- */
-
-*,
-*:before,
-*:after {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
-}
-
-.namegroup {
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    heigth: 10%;
-}
-
-.current {
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 50%;
-    border: 5px solid #8CAFF4;
-}
-
-.introduction_title {
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 2px solid #8CAFF4;
-}
-
-.introduction {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 50%;
-    border: 2px solid #8CAFF4;
-}
-
-.education_title {
-    float: right;
-    width: 25%;
-    padding-right: 2%;
-    padding-left: 2%;
-    border: 2px solid #8CAFF4;
-}    
-.education {
-    margin: 0 auto;
-}
-
-.main_interests {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 50%;
-    border: 2px solid #8CAFF4;
-}
-
-.experience_title {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 20%;
-    float: left;
-    height: 5%;
-    border: 2px solid #8CAFF4;
-} 
-.experience {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 20%;
-    float: left;
-    height: 20%;
-}
-
-.technicalskills_title {
-    margin: auto 0;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 20%;
-    border: 2px solid #8CAFF4;
-}
-
-.technicalskills {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 50%;
-    border: 2px solid #8CAFF4;
-}
-
-.projects {
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 50%;
-    border: 5px solid #8CAFF4;
-}
-.github_title{
-    width: 50%;
-    border: 5px solid #8CAFF4;
-}
-
-
-
-.footer {
-    margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 90%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 1%;
-    margin-bottom: 0;
-    border: 5px solid #8CAFF4;
-}
-
-/*
- * =======================================
- * TYPOGRAPHY
- * =======================================
- */
-
-h1, h2, h3, h4, h5, h6, h7, h8, p {
-    margin-bottom: 3px;    
-}
-
-html {
-    font-family:'Montserrat', 'Verdana', Arial, sans-serif;
-}
-
-.namegroup {
-    font-size: 20px;
-    font-weight: 100;
-    text-align: center;
-    background-color: grey;
-}
-
-.current {
-    font-size: 20px;
-    text-align: center;
-    background-color: yellow;
-}
-
-.introduction_title {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-    background-color: red;
-}
-
-.introduction {
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    background-color:#8CAFF4;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.main_interests {
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    background-color: red;
-    margin-top: 10px;
-    margin-bottom:10px;
-}
-
-.education_title {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.education {
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-    background-color: grey;
-    margin-left: 5px;
-    margin-right: 0;
-}
-
-.technicalskills_title {
-    font-size: 30px;
-    font-weight: 100;
-    text-align: center;
-    background-color: yellow;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.technicalskills {
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.github_title{
-    font-size: 20px;
-    text-align: center;
-    background-color: ligthblue;
-}
-
-.projects {
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-    background-color: white;
-}
-
-.the_footer {
-    font-size: 15px;
-    text-align: center;
-    font-weight: 500;
-    background-color: grey;
-    color: blue;
-}
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ===================================
+   GRID
+   =================================== */
+
+*,
+*:before,
+*:after {
+     box-sizing: border-box;
+}
+
+.namegroup {
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.current {
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 50%;
+    border: 5px solid #8CAFF4;
+    text-align: center;
+    background-color: yellow;
+}
+
+.introduction_title {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: red;
+}
+
+.introduction {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: #8CAFF4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main_interests {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education_title {
+    position: absolute;
+    top: 0;
+    width: 25%;
+    padding: 10px;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: grey;
+}
+
+.education {
+    margin: 0 auto;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+    float: right;
+    margin-top: 20px;
+}
+
+.experience_title {
+    position: absolute;
+    top: 0;
+    width: 25%;
+    padding: 10px;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: grey;
+}
+
+.experience {
+    margin: 0 auto;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+    float: left;
+    margin-top: 20px;
+}
+
+.technicalskills_title {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+.technicalskills {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #8CAFF4;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.github_title {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 5px solid #8CAFF4;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+.projects {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 5px solid #8CAFF4;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 0;
+    border: 5px solid #8CAFF4;
+    text-align: center;
+    background-color: grey;
+    color: blue;
+}
+
+/* =======================================
+   TYPOGRAPHY
+   ======================================= */
+
+h1, h2, h3, h4, h5, h6, h7, h8, p {
+    margin-bottom: 3px;    
+}
+
+html {
+    font-family:'Montserrat', 'Verdana', Arial, sans-serif;
+}
+
+.namegroup {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.current {
+    font-size: 20px;
+}
+
+.introduction_title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.introduction {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.main_interests {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.education_title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.education {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.experience_title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.experience {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.technicalskills_title {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.technicalskills {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.github_title {
+    font-size: 20px;
+}
+
+.projects {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer {
+    font-size: 15px;
+    font-weight: 500;
+}
