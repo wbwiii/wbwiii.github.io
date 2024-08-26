@@ -64,7 +64,7 @@ table {
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
-    text-align
+    
 
 }
 
@@ -72,14 +72,15 @@ table {
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-    width: 960px;
+    width: 100%;
+
 }
 
 .introduction{
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
-    width: 50%;
+    width: 70%;
     border: 5px solid #8CAFF4;
 }
 
@@ -88,6 +89,7 @@ table {
     padding-left: 30px;
     padding-right: 30px;
     width: 20%;
+    float: right;
 
 }
 
@@ -134,12 +136,18 @@ html{
     font-fmaily:'Montserrat', 'Verenda', Arial, sans-serif;
 }
 
-.
+.namegroup{
+    font-size: 20px;
+    font-weigth: 300px;
+    text-align: center;
+    background: blue;
+}
+
 
 .introduction{
     font-size: 20px;
     font-weigth: 300;
-    text-alight: center;
+    text-align: center;
     background-color:#8CAFF4;
 }
 
