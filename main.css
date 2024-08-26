@@ -61,8 +61,8 @@ table {
 
 .namegroup {
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 30%;
+    padding-right: 30%;
     width: 960px;
     
 
@@ -70,9 +70,9 @@ table {
 
 .current{
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 55%;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 50%;
 
 }
 
@@ -86,8 +86,8 @@ table {
 
 .education{
     margin: 0 auto;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 3%;
+    padding-right: 3%;
     width: 25%;
     float: right;
 
@@ -95,8 +95,8 @@ table {
 
 .experience{
     margin: 0 auto;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 3%;
+    padding-right: 3%;
     width: 25%;
     float: left;
 
