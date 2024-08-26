@@ -80,7 +80,7 @@ table {
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
-    width: 55%;
+    width: 50%;
     border: 5px solid #8CAFF4;
 }
 
@@ -88,16 +88,17 @@ table {
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
-    width: 20%;
+    width: 25%;
     float: right;
 
 }
 
 .experience{
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+    float: left;
 
 }
 
@@ -105,9 +106,15 @@ table {
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
-    width: 55%;
+    width: 50%;
 
 }
+
+.projects{
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 50%;
 
 .footer{
     margin: 0 auto;
@@ -146,18 +153,41 @@ html{
 
 
 .introduction{
-    font-size: 15px;
+    font-size: 20px;
     font-weigth: 300;
     text-align: center;
     background-color:#8CAFF4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education{
+    font-size: 15px;
+    font-weigth: 300;
+    text-align: center;
+    background-color:grey;
+    margin-left:5px;
+    margin-rigth:0px;
 }
 
 .technicalskills{
     font-size: 15px;
     font-weigth: 300;
     text-align: center;
-    background: white;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.projects{
+    font-size: 15px;
+    font-weigth: 300;
+    text-align: center;
+    background-color: white;
+
+}
+
+
 .footer{
     font-size: 5px;
     text-align: center;
