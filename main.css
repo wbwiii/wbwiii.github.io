@@ -173,7 +173,7 @@ table {
     border: 5px solid #8CAFF4;
 }
 
-.footer {
+.the_footer {
     margin: 0 auto;
     padding-left: 3%;
     padding-right: 3%;
@@ -268,7 +268,7 @@ html {
     text-align: center;
 }
 
-.footer {
+.the_footer {
     font-size: 15px;
     text-align: center;
     font-weight: 500;
