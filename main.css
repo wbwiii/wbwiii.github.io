@@ -60,7 +60,7 @@ table {
      box-sizing: border-box;
 }
 
-.namegroup {
+.namegroup{
     margin: 0 auto;
     padding-left: 3%;
     padding-right: 3%;
@@ -70,7 +70,7 @@ table {
 
 }
 
-.current {
+.current{
     margin: 0 auto;
     padding-left: 3%;
     padding-right: 3%;
@@ -180,6 +180,7 @@ table {
     margin-bottom: 0;
     text-align: center;
     border: 5px solid #8CAFF4;
+    height: 5%;
 }
 
 /*
