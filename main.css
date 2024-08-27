@@ -122,7 +122,7 @@ table {
     text-align: center;
     border: 2px solid #8CAFF4;
 } 
-.experience {
+.experience{
     margin: 0 auto;
     width: 75%;
     text-align: center;
@@ -137,7 +137,7 @@ table {
     border: 2px solid #8CAFF4;
 }
 
-.technicalskills {
+.technicalskills{
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
@@ -145,7 +145,7 @@ table {
     text-align: center;
 }
 
-.github_title {
+.github_title{
     margin: 0 auto;
     padding: 2%;
     width: 50%;
@@ -204,13 +204,13 @@ html {
     text-align: center;
 }
 
-.introduction_title {
+.introduction_title{
     font-size: 30px;
     font-weight: 300;
     text-align: center;
 }
 
-.introduction {
+.introduction{
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -218,7 +218,7 @@ html {
     margin-bottom: 10px;
 }
 
-.main_interests {
+.main_interests{
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -226,13 +226,13 @@ html {
     margin-bottom:10px;
 }
 
-.education_title {
+.education_title{
     font-size: 30px;
     font-weigth: 300;    
     text-align: center;
 }
 
-.education {
+.education{
     font-size: 15px;
     text-align: center;
 }
@@ -257,8 +257,7 @@ html {
 .technicalskills{
     font-size: 15px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+   
 }
 
 .github_title{
