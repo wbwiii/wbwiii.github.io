@@ -102,8 +102,7 @@ table {
 }    
 .education {
     margin: 0 auto;
-    width: 50%;
-    float: right;
+    width: 75%; 
     text-align: center;
 }
 
@@ -125,10 +124,8 @@ table {
 } 
 .experience {
     margin: 0 auto;
-    width: 50%;
-    float: left;
+    width: 75%;
     text-align: center;
-
 }
 
 .technicalskills_title {
@@ -144,9 +141,8 @@ table {
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
-    width: 50%;
+    width: 75%;
     text-align: center;
-    border: 2px solid #8CAFF4;
 }
 
 .github_title {
@@ -168,9 +164,8 @@ table {
 .projects{
     margin: 0 auto;
     padding: 2%;
-    width: 50%;
+    width: 75%;
     text-align: center;
-    border: 5px solid #8CAFF4;
 }
 
 .the_footer{
