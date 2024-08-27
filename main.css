@@ -102,7 +102,7 @@ table {
 }    
 .education {
     margin: 0 auto;
-    width: 20%;
+    width: 50%;
     float: right;
     text-align: center;
 }
@@ -125,7 +125,7 @@ table {
 } 
 .experience {
     margin: 0 auto;
-    width: 25%;
+    width: 50%;
     float: left;
     text-align: center;
 
