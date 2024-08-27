@@ -157,6 +157,14 @@ table {
     border: 5px solid #8CAFF4;
 }
 
+
+.projects_title{
+    margin: 0 auto;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+    border: 5px solid #8CAFF4;
+
 .projects {
     margin: 0 auto;
     padding: 2%;
