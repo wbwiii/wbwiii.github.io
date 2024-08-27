@@ -173,13 +173,9 @@ table {
 
 .the_footer{
     margin: 0 auto;
-    padding-left: 3%;
-    padding-right: 3%;
     width: 90%;
     margin-top: 1%;
-    margin-bottom: 0;
     text-align: center;
-    border: 5px solid #8CAFF4;
     height: 5%;
 }
 
