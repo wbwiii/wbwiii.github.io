@@ -128,7 +128,7 @@ table {
     width: 25%;
     float: left;
     text-align: center;
-    border: 2px solid #8CAFF4;
+
 }
 
 .technicalskills_title {
@@ -165,7 +165,7 @@ table {
     text-align: center;
     border: 5px solid #8CAFF4;
 
-.projects {
+.projects{
     margin: 0 auto;
     padding: 2%;
     width: 50%;
@@ -173,7 +173,7 @@ table {
     border: 5px solid #8CAFF4;
 }
 
-.the_footer {
+.the_footer{
     margin: 0 auto;
     padding-left: 3%;
     padding-right: 3%;
@@ -253,31 +253,31 @@ html {
     text-align: center;
 }
 
-.technicalskills_title {
+.technicalskills_title{
     font-size: 30px;
     font-weight: 300;
     text-align: center;
 }
 
-.technicalskills {
+.technicalskills{
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.github_title {
+.github_title{
     font-size: 20px;
     text-align: center;
 }
 
-.projects {
+.projects{
     font-size: 15px;
     font-weight: 300;
     text-align: center;
 }
 
-.the_footer {
+.the_footer{
     font-size: 15px;
     text-align: center;
     font-weight: 100;
