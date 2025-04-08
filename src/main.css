@@ -1,0 +1,52 @@
+/* Set the background image for all pages */
+body {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', 'Verdana', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Style for header, main content, and footer */
+  header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+  }
+  
+  main {
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Optional: Style for section headings within main */
+  main h1, main h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
