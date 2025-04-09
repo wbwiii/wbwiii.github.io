@@ -19,12 +19,12 @@ body {
   header {
     text-align: center;
     padding: 2rem 0;
-    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    background-color: rgba(255, 255, 255, 1); /* semi-transparent background */
   }
   
   main {
     padding: 1rem 2rem;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 1);
     margin: 1rem auto;
     max-width: 800px;
     border-radius: 4px;
@@ -33,7 +33,7 @@ body {
   footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     position: relative;
     bottom: 0;
     width: 100%;
