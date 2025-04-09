@@ -1,59 +1,73 @@
-/* ENSURE HTML AND BODY TAKE UP THE FULL HEIGHT */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+/* main.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Set the background image for all pages */
+/* Ensure html and body take up full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+/* Set the full-page background image */
 body {
-    background: url("images/image_i.webp") no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Montserrat', 'Verdana', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  /* Style for header, main content, and footer */
-  header {
-    text-align: center;
-    padding: 2rem 0;
-    background-color: transparent; /* semi-transparent background */
-  }
-  
-  main {
-    padding: 1rem 2rem;
-    background-color: transparent;
-    margin: 1rem auto;
-    max-width: 800px;
-    border-radius: 4px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: transparent;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-  }
-  
-  .footer-links a {
-    text-decoration: none;
-    color: #007acc;
-    font-weight: bold;
-  }
-  
-  .footer-links a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Optional: Style for section headings within main */
-  main h1, main h2 {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  
+  background: url("images/image_i.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Header styling with transparent background */
+header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+/* Main content container with transparency */
+main {
+  max-width: 800px;      /* Limits the container width */
+  margin: 2rem auto;     /* Centers the container horizontally */
+  padding: 2rem;
+  background: transparent;  /* Makes the container fully transparent */
+  text-align: center;    /* Centers all text inside */
+}
+
+/* Centering headings with spacing */
+h1, h2, h3, h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Center paragraphs and add line height for readability */
+p {
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Footer styling with transparent background */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: transparent;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc; /* Optional separator */
+}
+
+/* Footer links styling */
+.footer-links a {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
