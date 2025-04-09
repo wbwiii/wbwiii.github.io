@@ -1,3 +1,10 @@
+/* ENSURE HTML AND BODY TAKE UP THE FULL HEIGHT */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* Set the background image for all pages */
 body {
     background: url("images/image_i.webp") no-repeat center center fixed;
