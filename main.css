@@ -1,6 +1,6 @@
 /* Set the background image for all pages */
 body {
-    background: url("background.jpg") no-repeat center center fixed;
+    background: url("images/image_i.webp") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Montserrat', 'Verdana', Arial, sans-serif;
     margin: 0;
