@@ -24,9 +24,13 @@ body {
 
 /* Header styling with transparent background */
 header {
+  margin-top: 2rem;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   background-color: transparent;
+  position: relative;
+  top: 5px;
+
 }
 
 /* Main content container with transparency */
