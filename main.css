@@ -18,7 +18,7 @@ html, body {
 
 /* Set the full-page background image */
 body {
-  background: url("images/image_i.webp") no-repeat center center fixed;
+  background: url("images/20250425_045113089_iOS.png") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -32,10 +32,17 @@ header {
 /* Main content container with transparency */
 main {
   max-width: 800px;      /* Limits the container width */
-  margin: 2rem auto;     /* Centers the container horizontally */
+  /*margin: 2rem auto; */    /* Centers the container horizontally */
   padding: 2rem;
-  background: transparent;  /* Makes the container fully transparent */
-  text-align: center;    /* Centers all text inside */
+  background: rgba(255, 255, 255, 0.5);/*transparent;*/  /* Makes the container fully transparent */
+  backdrop-filter: blur(8px);
+  border-radius: 2rem;
+  box-shadow: 0 8px 34px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*text-align: center;*/    /* Centers all text inside */
 }
 
 /* Centering headings with spacing */
@@ -55,9 +62,11 @@ p {
 footer {
   text-align: center;
   padding: 1rem;
+  background: rgba(255, 255, 255,0.6);
+  border-radius: 50% 50% 0 0 /20% 20% 0 0;
   background-color: transparent;
-  margin-top: 2rem;
-  border-top: 1px solid #ccc; /* Optional separator */
+  margin-top: 4rem;
+  border-top: 3px solid #ccc; /* Optional separator */
 }
 
 /* Footer links styling */
