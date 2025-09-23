@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/work/";
           },
-        },{id: "nav-willie-b-williams-iii",
-          title: "Willie B. Williams III",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/";
-          },
         },{id: "nav-blog",
           title: "blog",
           description: "",
