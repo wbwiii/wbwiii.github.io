@@ -5,7 +5,6 @@ permalink: /
 nav: true
 nav_order: 1
 ---
-<body>
   <header>
     <h1>Willie Williams III</h1>
   </header>
@@ -36,4 +35,3 @@ nav_order: 1
       &copy; Willie Williams III
     </div>
   </footer>
-</body>
