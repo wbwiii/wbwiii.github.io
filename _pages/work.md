@@ -11,11 +11,11 @@ nav: true
   <main>
     <p>Places I've worked and organizations I've had the pleasure to be a part of.</p>
     <ul class="no-bullets">
-        <li><a href="leidos_page.html">Leidos Engineering</a></li>
-        <li><a href="DNP.html">Division of Nuclear Physics</a></li>
-        <li><a href="ornl_page.html">ORNL</a></li>
-        <li><a href="bae_sys_page.html">BAE Systems Engineering</a></li>
-        <li><a href="scoops_page.html">Scoops2U</a></li></li>
+        <li>Leidos Engineering</li>
+        <li>Division of Nuclear Physics</li>
+        <li>Oak Ridge National Laboratory</li>
+        <li>BAE Systems Engineering/li>
+        <li>Scoops2U</li>
     </ul>
     <p>Membership</p>
     <ul class="no-bullets">
