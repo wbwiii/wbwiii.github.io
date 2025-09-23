@@ -1,12 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Work
+permalink: /work/
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 <header>
     <h1>Work</h1>
@@ -15,11 +11,11 @@ horizontal: false
   <main>
     <p>Places I've worked and organizations I've had the pleasure to be a part of.</p>
     <ul class="no-bullets">
-        <li>Leidos Engineering</li>
-        <li>Division of Nuclear Physics</li>
-        <li>ORNL</li>
-        <li>BAE Systems Engineering</li>
-        <li>Scoops2U</li>
+        <li><a href="leidos_page.html">Leidos Engineering</a></li>
+        <li><a href="DNP.html">Division of Nuclear Physics</a></li>
+        <li><a href="ornl_page.html">ORNL</a></li>
+        <li><a href="bae_sys_page.html">BAE Systems Engineering</a></li>
+        <li><a href="scoops_page.html">Scoops2U</a></li></li>
     </ul>
     <p>Membership</p>
     <ul class="no-bullets">
@@ -41,3 +37,4 @@ horizontal: false
       &copy; Willie Williams III
     </div>
   </footer>
+
