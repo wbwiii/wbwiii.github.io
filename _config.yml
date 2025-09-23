@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: blank  # the website title (if blank, full name will be used instead)
+theme: null
 first_name: Willie
 middle_name: B.
 last_name: Williams III
