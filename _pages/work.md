@@ -12,16 +12,18 @@ nav: true
     <p>Leidos Engineering 2024 -2025</p>
     <ul class="no-bullets">
         <li> Data Scientist - Software Engineer </li>
-        <li> Energy and Communication
+        <li> Energy and Communication</li>
+    </ul>
     <p>Oak Ridge National Laboratory</p>
     <ul class="no-bullets">
         <li> Research Scientist </li>
-        <li> Applied Physics, Physiscs Division
+        <li> Applied Physics, Physiscs Division </li>
+    </ul>
     <p>BAE Systems Engineering</p>
     <ul class="no-bullets">
         <li> Signals Analysis</li>
         <li> Radio Frequency Engineer<li>
-
+    </ul>
     <!-- Add organizations, clubs, and employment details here -->
   </main>
   
