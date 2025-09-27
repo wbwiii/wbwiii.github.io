@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Willie B. Williams III
+title: Welcome
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -10,8 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
-    <p>Woodly Park</p>
-    <p>Washington D.C, 20008</p>
+    <p>Leidos Engineering</p>
+    <p>Oak Ridge National Laboratory</p>
+    <p>Woodly Park, Washington D.C, 20008</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,12 +29,12 @@ latest_posts:
 ---
 
 <header>
-    <h1>Willie Williams III</h1>
+    <h1>Willie B. Williams III</h1>
   </header>
   
   <main>
     <section id="about me">
-        <p> Yo! I'm an applied scientist currently based in the DC area. I studied Applied Physics, Computer Science and Mathematics at Virginia Commonwealth Univerity.
+        <p> Yo! I'm an applied scientist and engineer currently based in the DC area. I studied Applied Physics, Computer Science and Mathematics at Virginia Commonwealth Univerity.
             I love snowboarding, Philly sports, being outside, and catching sunsets. If I'm not traveling or working out, I'm probably creating some artsy projects or reading.
             Feel free to look around and see whats up! &#129305;
         </p>
