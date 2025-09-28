@@ -191,6 +191,7 @@
         "Oscilloscope",
         "",
       ],
+    }
       {
         "name": "Mathematics",
         "level": "",
@@ -203,6 +204,7 @@
             "Mathematical Modeling",
             "Optimization"
         ],
+      }
         {
             "name": "Computing - Software Engineering",
             "level":"",
@@ -256,7 +258,6 @@
                 "scikit-learn"
             ]
         },
-
         {
             "name": "Cloud & DevOps",
             "level": "",
