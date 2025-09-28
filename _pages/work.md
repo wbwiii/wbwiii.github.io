@@ -24,7 +24,6 @@ nav: true
         <li> Signals Analysis</li>
         <li> Radio Frequency Engineer<li>
     </ul>
-    <!-- Add organizations, clubs, and employment details here -->
   </main>
   
 <header>
