@@ -282,7 +282,7 @@
         {
             "name": "NLP & Document AI Tools",
             "level":"",
-            "icon":"fa-solid fa-language"
+            "icon":"fa-solid fa-language",
             "keywords":[
                 "spaCy",
                 "NLTK",
@@ -333,7 +333,7 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Interests",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
