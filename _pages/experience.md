@@ -4,40 +4,5 @@ title: Experience
 permalink: /experience/
 nav: true
 ___
-<header>
-    <h1>Experience</h1>
-  </header>
-  
-  <main>
-    <section id="experience">
-      <h2>Experience</h2>
-      <p>Spectroscopy Analysis of Na(TI) Scitillator Sturcture Using Machine Learning</p>
-      <p>Weather Forcasting using VUU Weather Center Data.</p>
-      <p>I have had the unique of experience of building experiments involing </p>
-    </section>    
-    <section id="education">
-      <h2>Education</h2>
-      <p>Virginia Commonwealth University</p>
-      <ul>
-        <li><a Bachelor of Science: Applied Physics></a></li>
-        <li><a Bachelor of Science: Mathematics></a></li>
-        <li><a Minor: Computer Science></a></li>
-      </ul>
-    </section>
-    <section id="technical-skills">
-        <h2>Technical Skills</h2>
-        <p><!-- List your technical skills here --></p>
-      </section>
-  </main>
-  
-  <footer>
-    <div class="footer-links">
-      <a href="https://github.com/yourusername" target="_blank">kernel</a> |
-      <a href="mailto:youremail@example.com">Email</a> |
-      <a href="https://twitter.com/yourhandle" target="_blank">Follow</a>
-    </div>
-    <div class="copyright">
-      &copy; Willie Williams III
-    </div>
-  </footer>
+
 
