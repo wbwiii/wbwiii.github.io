@@ -1,44 +1,12 @@
-- title: General Information
+- title: General Overview
   type: map
   contents:
-    - name: Full Name
-      value: Willie B. Williams III
-    - name: Applied Scientist
-      value: Applied Physics, Electromagentism, Photonics, Machine Learning
+    - name: Willie B. Williams III
+    - name: Areas of Interest
+      value: Applied Physics, Electromagnetism, Photonics, Machine Learning, Quantum Engineering
     - name: Languages
-      value: English
+      value: English (Native), Spanish (Adept)
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Sciecne
-      institution: Virginia Commonwealth University
-      year: 2018
-      description:
-        - Applied Physics
-        - 
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Bachelor of Science
-      institution: Virginia Commonwealth University
-      year: 2018
-      description:
-        - Mathematics
-        - 
-    - title: Minor
-      description: Computer Science
-    
-    - title: Associate of Science
-      institution: Northern Virginia Community College
-      year: 2017
-      description: Mathematical Specialization
-
-    - title: Associate of Science
-      institution: Northern Virginia Community College
-      year: 2019
-      description: Computer Science
 
 - title: Experience
   type: time_table
@@ -47,18 +15,17 @@
       institution: Leidos Engineering
       year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - RAG
+        - Software Architecture
+        - Machine Learning 
     - title: Research Scientist
       institution: Oak Ridge National Laboratory
       year: 2023 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Gamma Ray Spectroscopy 
+        - ElectroMechcanical Sensors
+        - Machine Learning
+        - Experiment Modeling
 
     - title: Signals Analysis
       institution: BAE Systems Engineering
@@ -68,11 +35,33 @@
     - title: Radio Frequency Engineer
       institution: BAE Systems Engineering
       year: 2020-2022
-      description:
+      description: 
 
     - title: Accountant - Analytics
       institution: Scoops2U
       year: 2019
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Sciecne
+      institution: Virginia Commonwealth University
+      year: 2018
+      description:
+        - Applied Physics
+        - Mathematics
+        - title: Minor
+          contents:
+            - Computer Science
+    - title: Minor
+      description: Computer Science
+    
+    - title: Associate of Science
+      institution: Northern Virginia Community College
+      year: 2017 - 2019
+      description: 
+        - Mathematical Specialization
+        - Computer Science
 
 - title: Open Source Projects
   type: time_table
@@ -81,30 +70,34 @@
       year: Present
       description: Some open source projects, I am working on...
 
-- title: Honors and Awards
+- title: Publications
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Coauthored on Direct Cross Section Measurement of 102Pd and 102Pd for the AStrophysical p Process
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Presented Scintillation Analysis at American Physical Society - Division of Nuclear Physics during Hawaii Conference
 
-- title: Academic Interests
+- title: Interests
   type: nested_list
   contents:
     - title: Quantum Applications
       items:
         - Quantum Photonics
-        - Quantum 
+        - Quantum Communication
     - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Computer Vision
+        - Predictive Modeling
+        - 
+    - title: 
+      items:
+        - Robotics
+        - 
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Snowboarding, Photography, etc.
+    - <u>Hobbies:</u> Snowboarding, Photography, Drawing, Hiking.
