@@ -61,6 +61,15 @@
         - Mathematical Specialization
         - Computer Science
 
+
+- title: Memberships
+  type: map
+  contents:
+    - name: <a href="https://www.aps.org"> American Physical Society </a>
+    - name: <a href="https://www.ieee.org"> Institute of Electrical and Electronics Engineer</a>
+    - name: <a href="https://www.siam.org"> Society of Industrial and Applied Mathematics</a>
+
+
 - title: Open Source Projects
   type: time_table
   contents:
