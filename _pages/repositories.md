@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: repos
 nav: true
 nav_order: 4
-description: >- I work at the intersection of machine learning, applied physics and instrumentation building systems that connect real world measurements to computational models. My work spans intelligent sensing, data acquisition and analysis across domains including optical and quantum systems, nuclear and RF instrumentations and electro-mechanical sensing.I'm most interested in problems where theory meets hardware and the software must hold up outside the lab. That has led me to design end to end ML system, from experimental data and signal processing through modeling, evaluation and production deployment. I'm comfortable moving between the bench to the cloud and I value work that is both technically rigorous and practically grounded.I believe durable progress comes from building tools, systems and insititutions that is for the beneifit of all.
+description: >- You're stepping into my workshop this is where ideas become code... Experiments, building blocks, and infrastructure. Some repos are polished, others are exploratory but all reflect how I build systems.
 
 ---
 
