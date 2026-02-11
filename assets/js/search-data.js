@@ -51,28 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/projects/";
-              },
-            },{id: "dropdown-repos",
-              title: "repos",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/repositories/";
-              },
-            },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
-            },{id: "dropdown-bookshelf",
+        },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
