@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 <header>
-    <h1>Willie B. Williams III</h1>
+    <h1>Welcome</h1>
   </header>
   
   <main>
