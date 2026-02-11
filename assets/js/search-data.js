@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-repos",
+          title: "repos",
+          description: "You&#39;re stepping into my workshop — this is where ideas become code. Experiments, building blocks, and infrastructure live here. Some repositories are polished, others are exploratory, but all reflect how I build systems.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "I work at the intersection of machine learning, applied physics, and instrumentation, building systems that connect real-world measurements to computational models. My work spans intelligent sensing, data acquisition, and analysis across domains including optical and quantum systems, nuclear and RF instrumentation, and electromechanical sensing. I&#39;m most interested in problems where theory meets hardware and the software must hold up outside the lab. That has led me to design end-to-end ML systems—from experimental data and signal processing through modeling, evaluation, and production deployment. I&#39;m comfortable moving between the bench and the cloud, and I value work that is both technically rigorous and practically grounded. I believe durable progress comes from building tools, systems, and institutions for the benefit of all.",
@@ -50,6 +57,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-people",
+          title: "people",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
