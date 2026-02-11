@@ -4,7 +4,8 @@ permalink: /repositories/
 title: repos
 nav: true
 nav_order: 4
-description: >- You're stepping into my workshop this is where ideas become code... Experiments, building blocks, and infrastructure. Some repos are polished, others are exploratory but all reflect how I build systems.
+description: >- 
+You're stepping into my workshop this is where ideas become code... Experiments, building blocks, and infrastructure. Some repos are polished, others are exploratory but all reflect how I build systems.
 
 ---
 
