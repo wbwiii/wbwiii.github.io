@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
     <p>Leidos Engineering</p>
     <p>Oak Ridge National Laboratory</p>
     <p>Woodly Park, Washington D.C, 20008</p>
