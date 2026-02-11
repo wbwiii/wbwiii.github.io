@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "I work at the intersection of machine learning, applied physics and instrumentation building systems that connect real world measurements to computational models. My work spans intelligent sensing, data acquisition and analysis across domains including optical and quantum systems, nuclear and RF instrumentations and electro-mechanical sensing.I&#39;m most interested in problems where theory meets hardware and the software must hold up outside the lab. That has led me to design end to end ML system, from experimental data and signal processing through modeling, evaluation and production deployment. I&#39;m comfortable moving between the bench to the cloud and I value work that is both technically rigorous and practically grounded.I believe durable progress comes from building tools, systems and insititutions that is for the beneifit of all.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
