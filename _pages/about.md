@@ -40,9 +40,9 @@ latest_posts:
     </section>
     <section id="links">
         <ul>
-            <li><a href="{{ '/experience/'| relative_url }}">Experience &#x2622;</a></li>
+            <li><a href="{{ '/cv/'| relative_url }}">Experience &#x2622;</a></li>
             <li><a href="{{ '/projects/' | relative_url }}">Projects &#x1f477;</a></li>
-            <li><a href="{{ '/work/' | relative_url }}">Work &#128104;</a></li>
+            <li><a href="{{ '/repositories/' | relative_url }}">Repo &#x1F528;</a></li>
             <li><a href="{{ '/links/' | relative_url }}">Links &#128279;</a></li>
         </ul>
     </section>
