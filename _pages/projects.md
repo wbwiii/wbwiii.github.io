@@ -2,33 +2,18 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Here is a collection of projects that I currently or have worked on. This is a growing collection of cool projects.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 <header>
-    <h1>Work</h1>
+    <h1></h1>
   </header>
   
   <main>
-    <p>Places I've worked and organizations I've had the pleasure to be a part of.</p>
-    <ul class="no-bullets">
-        <li>Leidos Engineering</li>
-        <li>Division of Nuclear Physics</li>
-        <li>ORNL</li>
-        <li>BAE Systems Engineering</li>
-        <li>Scoops2U</li>
-    </ul>
-    <p>Membership</p>
-    <ul class="no-bullets">
-        <li><a href="https://www.aps.org/">American Physical Soceity</a></li>
-        <li><a href="https://www.ieee.org/">Institute of Electrical and Electronics Engineers</a></li>
-        <li><a href="https://www.siam.org/">Soceity for Industrial and Applied Mathematics</a></li>
-    </ul>
 
-    <!-- Add organizations, clubs, and employment details here -->
   </main>
   
   <footer>

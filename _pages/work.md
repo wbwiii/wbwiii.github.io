@@ -2,7 +2,8 @@
 layout: page
 title: Work
 permalink: /work/
-nav: true
+nav: false
+search_exclude: true
 ---
 <header>
     <h1>Employment History</h1>
