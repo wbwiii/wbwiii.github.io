@@ -124,11 +124,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-recent-updates-recently-provided-with-the-opportunity-to-work-with-the-applied-physics-divison-at-oak-ridge-national-laboratory-working-in-machine-learning-and-applied-nuclear-physics-check-some-of-the-cool-work-that-ornl-works-in-main-site-ornl-physical-division-physics-division-super-computing-computing-division",
           title: 'Recent Updates Recently provided with the opportunity to work with the Applied Physics...',
           description: "",
@@ -138,52 +133,7 @@ ninja.data = [{
           section: "News",},{id: "news-publishing-update-recently-was-co-authored-with-some-of-my-colleagues-from-ornl-our-publication-is-posted-in-physical-review-c-would-like-to-thank-everyone-at-onrl-who-i-was-able-to-learn-from-and-worked-along-side-special-thank-you-to-steven-pain-kelly-chippss-and-nadia-fomin-once-the-publication-has-been-cleared-i-will-add-the-url-to-the-page-our-findings-revolve-around-appoximating-the-p-process-in-astrophysical-rapid-neutron-capture",
           title: 'Publishing Update Recently was co-authored with some of my colleagues from ORNL, our...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
