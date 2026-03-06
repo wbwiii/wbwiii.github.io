@@ -14,6 +14,9 @@ children:
   - title: publications
     permalink: /publications/
   - title: divider
+  - title: photo gallery
+    permalink: /photo_gallary/
+  - title: divider
   - title: bookshelf
     permalink: /books/
   - title: divider
