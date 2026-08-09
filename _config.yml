@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Want to Know more?  # blog_name will be displayed in your blog page
+blog_description: Here are some posts...
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -153,6 +153,12 @@ collections:
     output: true
   projects:
     output: true
+  restaurants:
+    output: true
+    permalink: /restaurants/:path/
+  photography:
+    output: true
+    permalink: /photography/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
