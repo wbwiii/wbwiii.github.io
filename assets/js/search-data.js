@@ -124,14 +124,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-recent-updates-recently-provided-with-the-opportunity-to-work-with-the-applied-physics-divison-at-oak-ridge-national-laboratory-working-in-machine-learning-and-applied-nuclear-physics-check-some-of-the-cool-work-that-ornl-works-in-main-site-ornl-physical-division-physics-division-super-computing-computing-division",
-          title: 'Recent Updates Recently provided with the opportunity to work with the Applied Physics...',
+            },},{id: "news-oak-ridge-national-laboratory-recently-provided-with-the-opportunity-to-work-with-the-applied-physics-divison-at-oak-ridge-national-laboratory-working-in-machine-learning-and-applied-nuclear-physics-check-some-of-the-cool-work-that-ornl-works-in-main-site-ornl-physical-division-physics-division-super-computing-computing-division",
+          title: 'Oak Ridge National Laboratory Recently provided with the opportunity to work with the...',
           description: "",
-          section: "News",},{id: "news-over-the-past-year-i-have-had-the-opportunity-to-participate-in-the-an-investiagtion-of-rapid-neutron-capture-at-ornl-i-recently-got-to-displau-some-of-our-findings-at-the-american-physical-soceity-for-the-division-of-nuclear-physics-in-hawaii-smiley",
-          title: 'Over the past year I have had the opportunity to participate in the...',
+          section: "News",},{id: "news-research-presentations-over-the-past-year-i-have-had-the-opportunity-to-participate-in-the-an-investiagtion-of-rapid-neutron-capture-at-ornl-i-recently-got-to-display-some-of-our-findings-at-the-american-physical-soceity-for-the-division-of-nuclear-physics-in-hawaii-smiley-here-is-a-link-to-the-dectector-presentation-records",
+          title: 'Research Presentations Over the past year I have had the opportunity to participate...',
           description: "",
           section: "News",},{id: "news-publishing-update-recently-was-co-authored-with-some-of-my-colleagues-from-ornl-our-publication-is-posted-in-physical-review-c-would-like-to-thank-everyone-at-onrl-who-i-was-able-to-learn-from-and-worked-along-side-special-thank-you-to-steven-pain-kelly-chippss-and-nadia-fomin-once-the-publication-has-been-cleared-i-will-add-the-url-to-the-page-our-findings-revolve-around-appoximating-the-p-process-in-astrophysical-rapid-neutron-capture",
           title: 'Publishing Update Recently was co-authored with some of my colleagues from ORNL, our...',
+          description: "",
+          section: "News",},{id: "news-accepted-paper-our-paper-has-been-accepted-i-can-speak-on-more-later-but-here-is-the-link-would-like-to-thank-everyone-who-contributed-to-this-effort",
+          title: 'Accepted Paper Our Paper has been accepted I can speak on more later...',
           description: "",
           section: "News",},{
         id: 'social-email',
