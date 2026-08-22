@@ -9,4 +9,4 @@ related_posts: false
 
 Our Paper has been accepted I can speak on more later but here is the link. Would like to thank everyone who contributed to this effort.
 
-<a href="https://journals.aps.org/prc/abstract/10.1103/mkfh-1yj9">
+<a href="https://journals.aps.org/prc/abstract/10.1103/mkfh-1yj9">Publication</a>
